@@ -1,7 +1,7 @@
 // Exercise 6: Write a function named 'uniqueValues' that takes an array of values and returns a new array with only unique values, removing duplicates.
 
 function uniqueValues(arr) {
-  // your code here
+  return [...new Set(arr)];
 }
 
-console.log(uniqueValues([1, 2, 2, 3, 4, 4, 5])) // [1, 2, 3, 4, 5]
+console.log(uniqueValues([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]
